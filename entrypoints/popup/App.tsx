@@ -118,7 +118,9 @@ function App() {
   };
 
   const openGitlab = () => {
-    chrome.tabs.create({ url: 'https://git.joywok.com/web/ds_cookie_ext' });
+    chrome.tabs.create({
+      url: 'https://github.com/XuXiaoliang775/get_set_cookie',
+    });
   };
 
   async function setCookie(
@@ -212,7 +214,7 @@ function App() {
       <ToastContainer
         stacked
         position="bottom-left"
-        autoClose={800}
+        autoClose={500}
         limit={2}
         hideProgressBar={false}
         newestOnTop={false}
