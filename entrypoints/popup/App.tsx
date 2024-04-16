@@ -163,7 +163,7 @@ function App() {
     <>
       <div className="card">
         <div className="card-top">
-          <img src={GitlabLogo} alt="logo" onClick={openGitlab} />
+          <img src={GitlabLogo} alt="logo" onClick={initCookieInfo} />
         </div>
 
         <div className="card-center">

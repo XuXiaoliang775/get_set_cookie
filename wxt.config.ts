@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   manifest: {
     name: 'Cookie Assistant',
-    version: '1.0.1',
+    version: '1.0.2',
     permissions: [
       'cookies',
       'notifications',
